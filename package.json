@@ -1,0 +1,32 @@
+{
+  "name": "media",
+  "version": "0.0.0",
+  "description": "HTML5 Media Player",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "new-chain": "*",
+    "domify": "~1.0.0"
+  },
+  "devDependencies": {
+    "fox": "*",
+    "jsify": "*",
+    "one": "*",
+    "bud": "*"
+  },
+  "keywords": [
+    "sound",
+    "html5",
+    "audio",
+    "player",
+    "play"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/media.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
