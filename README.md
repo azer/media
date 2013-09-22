@@ -6,7 +6,7 @@ Lightweight Wrapper For HTML5 Media API
 media = require('media')
 
 media.audio('song.mp3').autoplay()
-media.video('totoro.mp4').autoplay()
+media.video('totoro.mp4', document.querySelector('.foo')).autoplay()
 ```
 
 ## Install
